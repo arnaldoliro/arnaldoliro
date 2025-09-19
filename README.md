@@ -1,7 +1,7 @@
 <h1 align="center">Hey 👋 What's Up?</h1>
 
 <p align="center">
-  <img src="https://example.com/your-cover-image.jpg" alt="Background Image" width="100%" />
+  <img src="./assets/background-image.png" alt="Background Image" width="100%" />
 </p>
 
 <p align="center">
