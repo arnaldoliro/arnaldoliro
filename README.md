@@ -64,9 +64,9 @@
 ###
 
 <div align="center">
-  <!-- GitHub Activity Graph -->
- <img src="https://streak-stats.demolab.com?user=arnaldoliro&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
-  
+  <!-- Streak Graph hospedado no repo -->
+  <img src="./assets/streak.svg" height="150" alt="streak graph" />
+
   <!-- GitHub Trophy -->
   <img src="https://github-profile-trophy.vercel.app?username=arnaldoliro&theme=dracula&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=4" height="150" alt="GitHub trophies" />
 </div>
