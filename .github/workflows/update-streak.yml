@@ -1,20 +1,19 @@
 name: Update Streak Graph
 
-# Executa todo dia às 00:00 UTC
 on:
   schedule:
-    - cron: '0 0 * * *'
-  workflow_dispatch: # Permite rodar manualmente
+    - cron: '0 0 * * *' # todo dia à meia-noite UTC
+  workflow_dispatch: # permite rodar manualmente
 
 jobs:
   update-streak:
     runs-on: ubuntu-latest
     steps:
-      # 1️⃣ Checkout do repositório
+      # 1️⃣ Checkout
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # 2️⃣ Criar pasta 'assets' se não existir
+      # 2️⃣ Criar pasta assets
       - name: Create assets folder
         run: mkdir -p assets
 
@@ -23,17 +22,11 @@ jobs:
         run: |
           curl -L "https://streak-stats.demolab.com?user=arnaldoliro&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5&order=3" -o assets/streak.svg
 
-      # 4️⃣ Configurar usuário Git
-      - name: Configure Git
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-
-      # 5️⃣ Commit e push usando GITHUB_TOKEN
+      # 4️⃣ Commit & Push usando github-push-action
       - name: Commit & Push
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          git add assets/streak.svg
-          git commit -m "Update streak graph" || echo "No changes to commit"
-          git push https://x-access-token:$GH_TOKEN@github.com/${{ github.repository }} HEAD:main
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
+          commit_message: "Update streak graph"
+          force: true
