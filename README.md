@@ -124,7 +124,7 @@
 
 ## 💼 Experience
 
-[<img align="left" height="94px" width="95px" alt="Santa Casa logo" style="padding-right: 10px" src="./assets/santacasa"/>](https://www.santacasaba.org.br/)  
+[<img align="left" height="94px" width="95px" alt="Santa Casa logo" style="padding-right: 10px" src="./assets/santacasa.png"/>](https://www.santacasaba.org.br/)  
 **FullStack Developer - Internship** <br />
 [**Santa Casa**](https://www.santacasaba.org.br/)  
 Mar 2025 – Present  
@@ -141,11 +141,21 @@ Languages & Technologies: `JavaScript`, `Next.js`, `React`, `Tailwind CSS`, `Typ
 <br style="clear: both;" />
 
 
-<div align="center">
+## 📫 Contact Me
+<div align="start">
+  <!-- LinkedIn -->
   <a href="https://www.linkedin.com/in/arnaldoliro/">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo" />
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&style=for-the-badge" height="30" alt="LinkedIn" />
   </a>
+
+  <!-- WhatsApp -->
+  <a href="https://wa.me/+5571986688603">
+    <img src="https://img.shields.io/static/v1?message=WhatsApp&logo=whatsapp&label=&color=25D366&logoColor=white&style=for-the-badge" height="30" alt="WhatsApp" />
+  </a>
+
+  <!-- Email -->
   <a href="mailto:dinholiro@gmail.com">
-    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="gmail logo" />
+    <img src="https://img.shields.io/static/v1?message=Email&logo=gmail&label=&color=D14836&logoColor=white&style=for-the-badge" height="30" alt="Email" />
   </a>
 </div>
+
