@@ -1,0 +1,33 @@
+name: Update Streak Stats
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # todo dia à meia-noite UTC
+  workflow_dispatch:     # permite rodar manualmente
+
+jobs:
+  update-streak:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Checkout do repo
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # 2. Instalar curl
+      - name: Install curl
+        run: sudo apt-get install curl -y
+
+      # 3. Baixar o SVG do Streak Stats
+      - name: Download Streak Stats
+        run: |
+          curl -L "https://streak-stats.demolab.com?user=arnaldoliro&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5&order=3" -o assets/streak.svg
+
+      # 4. Commit e push
+      - name: Commit & Push
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/streak.svg
+          git commit -m "Update streak graph" || echo "No changes to commit"
+          git push
