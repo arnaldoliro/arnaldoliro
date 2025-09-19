@@ -1,5 +1,14 @@
 <h1 align="center">Hey 👋 What's Up?</h1>
 
+<p align="center">
+  <img src="https://example.com/your-cover-image.jpg" alt="Background Image" width="100%" />
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?lines=Welcome+to+my+GitHub;My+name+is+Arnaldo+Liro;I'm+a+FullStack+Developer&font=Fira+Code&size=24&duration=4000&pause=1000&color=f2a400&width=600&height=60" alt="Typing SVG"/>
+</p>
+
+
 ###
 
 <h3 align="center">💻 Languages I Know</h3>
@@ -65,7 +74,8 @@
 
 <div align="center">
   <!-- Streak Graph hospedado no repo -->
-  <img src="./assets/streak.svg" height="150" alt="streak graph" />
+  <img src="https://streak-stats.demolab.com?user=arnaldoliro&locale=en&mode=daily&theme=dracula" height="150" alt="streak graph" />
+
 
   <!-- GitHub Trophy -->
   <img src="https://github-profile-trophy.vercel.app?username=arnaldoliro&theme=dracula&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=4" height="150" alt="GitHub trophies" />
