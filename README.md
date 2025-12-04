@@ -124,10 +124,18 @@
 
 ## 💼 Experience
 
+[<img align="left" height="94px" width="95px" alt="Santa Casa logo" style="padding-right: 10px" src="./assets/sudoeste.png"/>](https://sudoesteinformatica.com.br//)  
+**Junior Full-Stack Developer | Data Analyst** <br />
+[**Sudoeste Informártica**](https://sudoesteinformatica.com.br//)  
+Oct 2025 – Present  
+Languages & Technologies: `Javascript`, `Java`, `SQL Server`, `Docker`, `Maker`
+
+<br/>
+
 [<img align="left" height="94px" width="95px" alt="Santa Casa logo" style="padding-right: 10px" src="./assets/santacasa.png"/>](https://www.santacasaba.org.br/)  
 **FullStack Developer - Internship** <br />
 [**Santa Casa**](https://www.santacasaba.org.br/)  
-Mar 2025 – Present  
+Mar 2025 – Oct 2025  
 Languages & Technologies: `Nest.js`, `Java`, `Oracle`, `Typeorm`, `Docker`, `RabbitMQ`, `Next.js`, `Kong`, `Microservices`, `SQL`, `Spring`
 
 <br/>
