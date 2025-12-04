@@ -126,7 +126,7 @@
 
 [<img align="left" height="94px" width="95px" alt="Santa Casa logo" style="padding-right: 10px" src="./assets/sudoeste.png"/>](https://sudoesteinformatica.com.br//)  
 **Junior Full-Stack Developer | Data Analyst** <br />
-[**Sudoeste Informártica**](https://sudoesteinformatica.com.br//)  
+[**Sudoeste Informática**](https://sudoesteinformatica.com.br//)  
 Oct 2025 – Present  
 Languages & Technologies: `Javascript`, `Java`, `SQL Server`, `Docker`, `Maker`
 
